@@ -1,6 +1,4 @@
 PyQt6>=6.2
 protobuf
-bsdiff4
 brotli
-fsspec
 zstandard

@@ -10,9 +10,8 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    excludes=['fsspec', 'aiohttp', 'requests', 'cryptography', 'lxml', 'tzdata', 'boto3', 'botocore', 's3fs', 'gcsfs', 'paramiko', 'adlfs', 'pandas', 'numpy', 'scipy', 'matplotlib', 'PIL', 'tkinter', '_tkinter', 'test', 'unittest'],
     noarchive=False,
-    optimize=0,
 )
 pyz = PYZ(a.pure)
 
